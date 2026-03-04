@@ -1,11 +1,11 @@
-# +SumIt Up! ✨
+# +SumIt Up! 
 ### A Summarizer Accelerator Tool
 
 A multi-engine text summarization framework that runs your text through multiple algorithms simultaneously and compares results — helping you pick the best summarization approach for your use case.
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 Built to support future use cases where a summarizer is required, this tool enables evaluation and selection of the most suitable approach based on:
 
@@ -16,7 +16,7 @@ Built to support future use cases where a summarizer is required, this tool enab
 
 ---
 
-## ⚡ Algorithms Compared
+##  Algorithms Compared
 
 | Algorithm | Type | Description |
 |---|---|---|
@@ -26,7 +26,7 @@ Built to support future use cases where a summarizer is required, this tool enab
 
 ---
 
-## 📊 Metrics Measured
+##  Metrics Measured
 
 - **Time taken** (milliseconds)
 - **Word count**
@@ -36,7 +36,7 @@ Built to support future use cases where a summarizer is required, this tool enab
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Backend**
 - Python 3.11
@@ -47,11 +47,11 @@ Built to support future use cases where a summarizer is required, this tool enab
 
 **Frontend**
 - HTML, CSS, JavaScript
-- Retro pastel design 🍓
+- Retro pastel design 
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -79,7 +79,7 @@ Open `frontend/index.html` in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 summarizer-accelerator/
 │
@@ -94,8 +94,3 @@ summarizer-accelerator/
 │
 └── README.md
 ```
-
----
-
-## 👩‍💻 Built by
-Lakshmi — as part of the Summarizer Accelerator exploration for evaluating summarization strategies across different use cases.
