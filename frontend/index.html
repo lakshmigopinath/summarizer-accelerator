@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarizer Accelerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1> +SumIt Up </h1>
+        <p>Compare multiple summarization algorithms side by side</p>
+    </div>
+
+    <!-- Input Section -->
+    <div class="container">
+        <div class="input-section">
+            <label>Paste your text below</label>
+            <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+            <label style="margin-top: 16px; display: block;">Reference Summary (optional — for ROUGE scoring)</label>
+            <textarea id="referenceText" style="height: 80px;" placeholder="Paste a reference summary here to get ROUGE accuracy scores..."></textarea>
+            <div class="input-footer">
+                <span id="wordCount">0 words</span>
+                <button id="summarizeBtn" onclick="runAll()">
+                    ▶ Run All Algorithms
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection">
+            <div class="result-card" id="card-tfidf">
+                <div class="card-header tfidf">TF-IDF (LSA)</div>
+                <div class="card-body">
+                    <div class="placeholder">Waiting for input...</div>
+                </div>
+            </div>
+            <div class="result-card" id="card-textrank">
+                <div class="card-header textrank">TextRank</div>
+                <div class="card-body">
+                    <div class="placeholder">Waiting for input...</div>
+                </div>
+            </div>
+            <div class="result-card" id="card-bart">
+                <div class="card-header bart">BART (Neural)</div>
+                <div class="card-body">
+                    <div class="placeholder">Waiting for input...</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
