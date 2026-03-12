@@ -3,6 +3,10 @@ import time
 import fitz
 from docx import Document
 import io
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 # Sumy imports
 from sumy.parsers.plaintext import PlaintextParser
